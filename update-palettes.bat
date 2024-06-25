@@ -1,1 +1,0 @@
-ruby update-palettes.rb
