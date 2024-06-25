@@ -1,0 +1,81 @@
+{
+  "name": "my-palettes",
+  "displayName": "My Palettes",
+  "version": "1.0",
+  "author": {
+    "name": "Cat Cup Borrowed",
+    "url": ""
+  },
+  "publisher": "nobody",
+  "categories": [
+    "Palettes"
+  ],
+  "contributes": {
+    "palettes": [
+      {
+        "id": "31",
+        "path": "./31.gpl"
+      },
+      {
+        "id": "A Blood Steeped Corridor",
+        "path": "./a-blood-steeped-corridor.gpl"
+      },
+      {
+        "id": "Apollo",
+        "path": "./apollo.gpl"
+      },
+      {
+        "id": "Berry Nebula",
+        "path": "./berry-nebula.gpl"
+      },
+      {
+        "id": "Cc 29",
+        "path": "./cc-29.gpl"
+      },
+      {
+        "id": "Chasm",
+        "path": "./chasm.gpl"
+      },
+      {
+        "id": "Citrink",
+        "path": "./citrink.gpl"
+      },
+      {
+        "id": "Curiosities",
+        "path": "./curiosities.gpl"
+      },
+      {
+        "id": "Exophobia",
+        "path": "./exophobia.gpl"
+      },
+      {
+        "id": "Late Night Bath",
+        "path": "./late-night-bath.gpl"
+      },
+      {
+        "id": "Lost Century",
+        "path": "./lost-century.gpl"
+      },
+      {
+        "id": "Nyx8",
+        "path": "./nyx8.gpl"
+      },
+      {
+        "id": "Pear36",
+        "path": "./pear36.gpl"
+      },
+      {
+        "id": "Twilight 5",
+        "path": "./twilight-5.gpl"
+      },
+      {
+        "id": "Vanilla Milkshake",
+        "path": "./vanilla-milkshake.gpl"
+      },
+      {
+        "id": "Vinik24",
+        "path": "./vinik24.gpl"
+      }
+    ]
+  }
+}

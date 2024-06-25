@@ -9,7 +9,7 @@ class String  ;
   def clean
     self.gsub(/[-_]/, " ")
   end
-
+    
   def to_name
     self.clean.titleize
   end
@@ -54,4 +54,7 @@ full_data = {
   }
 }
 
-puts JSON.pretty_generate(full_data)
+
+File.open("./package.json","w") do |f|
+  f.write(JSON.pretty_generate(full_data))
+end
