@@ -16,9 +16,9 @@ class String  ;
 end
 
 puts "=============================================================="
-puts "This scrips it's to use a custom gpl list of palettes on aseprite." \
-     "Based on the .gpl palettes on the same folder, it creates a package.json file " \
-     "with all the files on the same folder."
+puts "This scrips it's to use a custom gpl list of palettes on aseprite. "
+puts    "Based on the .gpl palettes on the same folder, it creates or updates a "
+puts   "package.json file with all the files on the same folder."
 puts "==============================================================\n\n"
 
 
@@ -58,3 +58,5 @@ full_data = {
 File.open("./package.json","w") do |f|
   f.write(JSON.pretty_generate(full_data))
 end
+
+puts "package.json file created or updated!"

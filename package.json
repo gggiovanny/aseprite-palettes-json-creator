@@ -41,6 +41,10 @@
         "path": "./citrink.gpl"
       },
       {
+        "id": "Curiosities New",
+        "path": "./curiosities-new.gpl"
+      },
+      {
         "id": "Curiosities",
         "path": "./curiosities.gpl"
       },
